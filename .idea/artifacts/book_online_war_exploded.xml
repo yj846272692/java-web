@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="book-online" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.22" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />

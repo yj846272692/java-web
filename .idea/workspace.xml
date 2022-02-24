@@ -10,56 +10,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="931ce818-37a5-468c-9230-3f3a0ef4baf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/servlet/ReqServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/quickstart_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/book-online.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bookonline/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bookonline/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/target/classes/com/bookonline/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/quickstart/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/servlet/ServletDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/java/com/soft2176/servlet/ServletDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/target/classes/com/soft2176/servlet/ServletDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/target/classes/com/soft2176/servlet/ServletDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/soft2176/servlet/ServletDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/classes/com/soft2176/servlet/ServletDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../03-servlet/target/servlet-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+    <list default="true" id="931ce818-37a5-468c-9230-3f3a0ef4baf6" name="Changes" comment="java-web 的多模块项目结构初始化">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/BookDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/LoginPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/com/bo/servlet/UserPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/book_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/256.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/user1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/user2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/user3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/book-online.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/book-online.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/java/com/bookonline/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/classes/com/bookonline/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/target/book-online-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/target/classes/com/bookonline/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -90,22 +108,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tools/apache-tomcat-10.0.16/lib/servlet-api.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.3770115" />
+    <property name="service.view.auto.scroll.to.source" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\21级校企合作\Work\java-web\quickstart" />
+      <recent name="D:\21级校企合作\Work\java-web\book-online\src\main\webapp\images" />
+      <recent name="D:\21级校企合作\Work\java-web\book-online\src\main\webapp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.16" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="quickstart:war exploded">
+        <artifact name="book-online:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -199,8 +230,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645686288073</updated>
-      <workItem from="1645686289539" duration="2227000" />
+      <workItem from="1645686289539" duration="12917000" />
+      <workItem from="1645705729297" duration="1065000" />
+      <workItem from="1645706831981" duration="568000" />
+      <workItem from="1645707430821" duration="675000" />
+      <workItem from="1645708138323" duration="138000" />
+      <workItem from="1645708307019" duration="839000" />
+      <workItem from="1645709185533" duration="4582000" />
     </task>
+    <task id="LOCAL-00001" summary="java-web 的多模块项目结构初始化">
+      <created>1645688612077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645688612077</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java-web 的多模块项目结构初始化">
+      <created>1645688624229</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645688624229</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,5 +271,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="java-web 的多模块项目结构初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="java-web 的多模块项目结构初始化" />
   </component>
 </project>
